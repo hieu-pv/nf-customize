@@ -1,6 +1,7 @@
 {
     "name": "codersvn/nf-customize",
     "description": "Customization for wordpress",
+    "version": "1.0.0",
     "autoload": {
         "files": [
         	"helpers/helpers.php"
