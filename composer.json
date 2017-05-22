@@ -1,0 +1,22 @@
+{
+    "name": "codersvn/nf-customize",
+    "description": "Customization for wordpress",
+    "autoload": {
+        "files": [
+        	"helpers/helpers.php"
+        ],
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Codersvn",
+        "email": "hieupv@codersvn.com"
+    }],
+    "require": {
+    	"philo/laravel-blade": "^3.1",
+        "illuminate/database": "^5.3",
+        "illuminate/http": "^5.3",
+        "illuminate/support": "^5.4"
+    }
+}
